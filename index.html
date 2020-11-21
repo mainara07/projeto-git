@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API - GITHUB</title>
+</head>
+<body>
+    <section> 
+    <input type="text" name="input" id="input" placeholder="Nome de Usuario">
+    <button type="button" onclick="controle.procuraUsuario()">Procurar usuário</button>
+    <p id="nome"></p>
+    <p id="username"></p>
+    <p id="repositorios"></p>
+    <p id="linkRepo"></p>
+    <p id="imagem"></p>
+    <p id="seguidores"></p>
+    </section>
+
+<script src="Controle.js"> </script>
+<script src="Modelo.js"></script>
+<script src="Visualizador.js"></script> 
+<script> let controle = new Controle(); </script>
+
+</body>
+</html>
